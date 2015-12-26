@@ -4,9 +4,21 @@
 ![Laravel](img/screen.png)
 
 
-Laravel missed helpers in version 5.2
+#Laravel missed helpers in version 5.2
 
-## Installation
+### Installation
 ```
   composer require morilog/laravel-helpers
 ```
+
+### Available helpers
+
+#### Router
+- `get()`
+- `post()`
+- `delete()`
+- `put()`
+- `patch()`
+- `resource()`
+- `group()`
+- `route_group()` alias of `group()`
