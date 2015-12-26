@@ -1,0 +1,27 @@
+{
+    "name": "morilog/laravel-helpers",
+    "description": "Laravel missed helpers in version 5.2",
+    "keywords": [
+        "laravel",
+        "helpers",
+        "router helpers"
+    ],
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Morteza Parvini",
+            "email": "m.parvini@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+
+        "files": [
+            "src/router_helpers.php"
+        ]
+    }
+}
