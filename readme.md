@@ -2,3 +2,11 @@
 ================
 
 ![Laravel](img/screen.png)
+
+
+Laravel missed helpers in version 5.2
+
+## Installation
+```
+  composer require morilog/laravel-helpers
+```
