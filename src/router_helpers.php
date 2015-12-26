@@ -85,3 +85,34 @@ if (! function_exists('resource')) {
         return app('router')->resource($name, $controller, $options);
     }
 }
+
+if (! function_exists('group')) {
+    /**
+     * Create a route group with shared attributes.
+     *
+     * @param  array     $attributes
+     * @param  \Closure  $callback
+     * @return void
+     */
+    function group(array $attributes, \Closure $callback)
+    {
+        return app('router')->group($attributes, $callback);
+    }
+}
+
+
+if (! function_exists('route_group')) {
+
+    /**
+     * Create a route group with shared attributes.
+     * Alias of `group()` helper function
+     *
+     * @param  array     $attributes
+     * @param  \Closure  $callback
+     * @return void
+     */
+    function route_group(array $attributes, \Closure $callback)
+    {
+        return app('router')->group($attributes, $callback);
+    }
+}
